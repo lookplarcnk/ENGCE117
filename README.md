@@ -1,5 +1,5 @@
 # 💫 About Me:
-My Name is Ratchaneekorn Chuadee.<br>D/O/B : 13/07/2000<br>Height : 170 cm.<br>I'm a computer engineering student.<br>ชอบดูรายการประเภทเกมโชว์<br>KPOP เลิฟเว่อร์ 
+My Name is Ratchaneekorn Chuadee.<br>D.O.B : 13/07/2000<br>Height : 170 cm.<br>I'm a computer engineering student.<br>ชอบดูรายการประเภทเกมโชว์<br>KPOP เลิฟเว่อร์ 
 
 
 ## 🌐 Socials:
