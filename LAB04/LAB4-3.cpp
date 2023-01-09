@@ -10,7 +10,7 @@ struct studentNode
     struct studentNode *next;
 };
 
-void SaveNode(struct studentNode *child, char n[], int a, char s, float g)
+void SaveNode(struct studentNode *child, const char n[], int a, char s, float g)
 {
     strcpy(child->name, n);
     child->age = a;
@@ -41,4 +41,3 @@ int main()
     GoNext1(now1);
     printf( "%s ", now1->name );
 }
-
