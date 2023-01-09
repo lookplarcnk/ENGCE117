@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <string.h>
-
 struct studentNode 
 {
     char name[20];
@@ -10,7 +7,7 @@ struct studentNode
     struct studentNode *next;
 };
 
-void SaveNode(struct studentNode *child, char n[], int a, char s, float g)
+void SaveNode(struct studentNode *child, const char n[], int a, char s, float g)
 {
     strcpy(child->name, n);
     child->age = a;
