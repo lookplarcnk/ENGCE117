@@ -16,7 +16,7 @@ void SaveNode (struct studentNode *child, const char n[], int a, char s, float g
     child->age = a;
     child->sex = s;
     child->gpa = g;
-}
+}//end function
 
 void GoNext2(struct studentNode **walk)
 {
@@ -42,4 +42,4 @@ int main()
     GoNext2(now2);
     printf("%s", (*now2)->name);
     return 0;
-}
+}//end function
