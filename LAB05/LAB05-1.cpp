@@ -63,7 +63,7 @@ void ShowAll(studentNode *walk){
         walk = walk->next;
     }
 cout << endl;
-}
+}//end function
 
 int main(){
     studentNode *start = nullptr;
@@ -78,5 +78,5 @@ int main(){
     DelNode(now); 
     ShowAll(start);
     return 0;
-}
+}//end function
 
