@@ -13,7 +13,7 @@ struct studentNode{
     struct studentNode *next;
 };
 
-studentNode* AddNode(studentNode **start, char *name, int age, char sex, float gpa){
+studentNode* AddNode(studentNode **start, const char *name, int age, char sex, float gpa){
     studentNode *new_node = new studentNode;
     strcpy(new_node->name, name);
     new_node->age = age;
@@ -33,7 +33,7 @@ last->next = new_node;
 return new_node;
 }
 
-void InsNode(studentNode *prev_node, char *name, int age, char sex, float gpa){
+void InsNode(studentNode *prev_node, const char *name, int age, char sex, float gpa){
     if (prev_node == nullptr){
         return;
     }
