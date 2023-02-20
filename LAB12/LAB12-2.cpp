@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 int *KnapsackGreedy(int *w, int *v, int n, int wx)
